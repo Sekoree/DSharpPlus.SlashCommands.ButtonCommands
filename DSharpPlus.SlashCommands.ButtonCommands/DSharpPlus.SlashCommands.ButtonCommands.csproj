@@ -10,14 +10,22 @@ Enables ButtonComponents to be mapped to SlashCommands (via their CustomId)</Des
     <PackageProjectUrl>https://github.com/Speyd3r/DSharpPlus.SlashCommands.ButtonCommands</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Speyd3r/DSharpPlus.SlashCommands.ButtonCommands</RepositoryUrl>
     <PackageId>Sekoree.DSharpPlus.SlashCommands.ButtonCommands</PackageId>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
-    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.2.0</AssemblyVersion>
+    <FileVersion>1.0.2.0</FileVersion>
+    <Version>1.0.2</Version>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="DSharpPlus" Version="4.2.0-nightly-*" />
     <PackageReference Include="DSharpPlus.SlashCommands" Version="4.2.0-nightly-*" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
