@@ -4,10 +4,12 @@
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Sekoree(#3939)</Authors>
-    <Description>Enables ButtonComponents to be mapped to SlashCommands (via their CustomId)</Description>
+    <Description>Requires D#+ Nightly! 
+Enables ButtonComponents to be mapped to SlashCommands (via their CustomId)</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageProjectUrl>https://github.com/Speyd3r/DSharpPlus.SlashCommands.ButtonCommands</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Speyd3r/DSharpPlus.SlashCommands.ButtonCommands</RepositoryUrl>
+    <PackageId>Sekoree.DSharpPlus.SlashCommands.ButtonCommands</PackageId>
   </PropertyGroup>
 
   <ItemGroup>
