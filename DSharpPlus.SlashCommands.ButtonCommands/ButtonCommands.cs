@@ -139,7 +139,7 @@ namespace DSharpPlus.SlashCommands.ButtonCommands
                     {
                         var errArgs = new SlashCommandErrorEventArgs();
                         errArgs.GetType().GetField("<Context>k__BackingField", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(errArgs, context);
-                        errArgs.GetType().GetField("<Exceptiont>k__BackingField", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(errArgs, ex);
+                        errArgs.GetType().GetField("<Exception>k__BackingField", BindingFlags.Instance | BindingFlags.NonPublic).SetValue(errArgs, ex);
                         await this._slashError.InvokeAsync(_slash, errArgs);
                     }
                 }
