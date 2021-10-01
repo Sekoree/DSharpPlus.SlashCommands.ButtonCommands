@@ -6,6 +6,8 @@
     <Authors>Sekoree(#3939)</Authors>
     <Description>Enables ButtonComponents to be mapped to SlashCommands (via their CustomId)</Description>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/Speyd3r/DSharpPlus.SlashCommands.ButtonCommands</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/Speyd3r/DSharpPlus.SlashCommands.ButtonCommands</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
