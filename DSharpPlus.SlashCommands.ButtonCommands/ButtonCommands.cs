@@ -22,6 +22,17 @@ namespace DSharpPlus.SlashCommands.ButtonCommands
         {
             return new ButtonCommands(slash);
         }
+
+        public static IReadOnlyDictionary<int, ButtonCommands> EnableShardedButtonCommands(this IReadOnlyDictionary<int, SlashCommandsExtension> slashes)
+        {
+            var modules = new Dictionary<int, ButtonCommands>();
+            foreach (var item in slashes)
+            {
+                var module = item.Value.EnableButtonCommands();
+                modules.Add(item.Key, module);
+            }
+            return modules;
+        }
     }
 
     /// <summary>
